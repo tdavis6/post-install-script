@@ -1,3 +1,3 @@
-# scripts-template
+# Post Install Script
 
-This repository is a template for scripts.
+This repository contains the script that I use on all new Windows installs.
