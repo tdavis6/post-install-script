@@ -52,12 +52,15 @@ function installAll {
         @{name = "TeXstudio.TeXstudio"},
         @{name = "OBSProject.OBSStudio"},
         @{name = "Spotify.Spotify"},
-        @{name = "VB-Audio.Voicemeeter.Potato"},
+        @{name = "VB-Audio.Voicemeeter.Banana"},
         @{name = "Mozilla.Thunderbird"},
         @{name = "DigitalScholar.Zotero"},
         @{name = "Microsoft.VisualStudio.2022.Community"},
         @{name = "Anki.Anki"},
-        @{name = ""}
+        @{name = "MilosParipovic.OneCommander"},
+        @{name = "Valve.Steam"},
+        @{name = "voidtools.Everything"},
+        @{name = "stnkl.EverythingToolbar"}
         );
     Foreach ($app in $apps) {
         $listApp = winget list --exact -q $app.name
