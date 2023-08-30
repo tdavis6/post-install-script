@@ -60,7 +60,8 @@ function installAll {
         @{name = "MilosParipovic.OneCommander"},
         @{name = "Valve.Steam"},
         @{name = "voidtools.Everything"},
-        @{name = "stnkl.EverythingToolbar"}
+        @{name = "stnkl.EverythingToolbar"},
+        @{name = "SamHocevar.WinCompose"}
         );
     Foreach ($app in $apps) {
         $listApp = winget list --exact -q $app.name
