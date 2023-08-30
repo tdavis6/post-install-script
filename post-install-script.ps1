@@ -144,6 +144,7 @@ function uninstallOneDrive {
 }
 
 function runAll {
+    installAll
     disableBing
     disableModernStandby
     uninstallEdge
