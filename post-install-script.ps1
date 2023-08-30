@@ -181,3 +181,4 @@ do {
     Write-Host "`n"
 }
 until ($userInput -eq 'q')
+restart-computer
